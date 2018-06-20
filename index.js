@@ -59,6 +59,6 @@ exports.handler = (event, context, callback) => {
         });
 
     } else {
-        callback(null, 'ERROR !');
+        callback(null, 'ERROR!');
     }
 };
